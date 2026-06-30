@@ -1,0 +1,4 @@
+node_modules
+dist
+vcs.xml
+.idea

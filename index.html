@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefas</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            margin: 20px;
+            width: 340px;
+            background: #f5f5f5;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .nova-tarefa {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .nova-tarefa input {
+            flex: 1;
+            padding: 8px;
+        }
+
+        .nova-tarefa button {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+            background: white;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 8px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            box-shadow: 0 1px 3px rgba(0,0,0,.15);
+        }
+
+        .esquerda {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .feito {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        .btnExcluir {
+            background: #d32f2f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 4px 10px;
+        }
+
+        .btnExcluir:hover {
+            background: #b71c1c;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>📋 Tarefas do Dia</h2>
+
+    <div class="nova-tarefa">
+
+        <input
+            id="novaTarefa"
+            type="text"
+            placeholder="Digite uma tarefa">
+
+        <button onclick="adicionar()">
+            +
+        </button>
+
+    </div>
+
+    <ul id="lista"></ul>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

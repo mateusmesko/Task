@@ -1,0 +1,28 @@
+{
+  "name": "tarefas",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Mateus",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.mateus.tarefas",
+    "productName": "Tarefas",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icons/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^42.5.1",
+    "electron-builder": "^26.15.3"
+  }
+}
