@@ -1,4 +1,4 @@
-# 📋 Tarefas App (Electron)
+# Tarefas App (Electron)
 
 Aplicação desktop simples para gerenciamento de tarefas, com:
 
@@ -11,7 +11,7 @@ Aplicação desktop simples para gerenciamento de tarefas, com:
 
 ---
 
-# 🚀 Tecnologias
+# Tecnologias
 
 - Electron
 - Node.js
@@ -21,7 +21,7 @@ Aplicação desktop simples para gerenciamento de tarefas, com:
 
 ---
 
-# 📁 Estrutura do projeto
+# Estrutura do projeto
 
 tarefas/
 │
