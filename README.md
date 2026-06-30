@@ -24,7 +24,7 @@ Aplicação desktop simples para gerenciamento de tarefas, com:
 # Estrutura do projeto
 
 tarefas/
-│
+│/n
 ├── main.js
 ├── index.html
 ├── script.js
